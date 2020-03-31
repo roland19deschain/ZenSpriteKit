@@ -20,6 +20,14 @@
 		F7E720992433F678004BAF12 /* SKAction+Pulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720972433F678004BAF12 /* SKAction+Pulse.swift */; };
 		F7E7209A2433F678004BAF12 /* SKAction+Pulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720972433F678004BAF12 /* SKAction+Pulse.swift */; };
 		F7E7209B2433F678004BAF12 /* SKAction+Pulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720972433F678004BAF12 /* SKAction+Pulse.swift */; };
+		F7E720B824340378004BAF12 /* SKAction+Colorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720B724340378004BAF12 /* SKAction+Colorize.swift */; };
+		F7E720B924340378004BAF12 /* SKAction+Colorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720B724340378004BAF12 /* SKAction+Colorize.swift */; };
+		F7E720BA24340378004BAF12 /* SKAction+Colorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720B724340378004BAF12 /* SKAction+Colorize.swift */; };
+		F7E720BB24340378004BAF12 /* SKAction+Colorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720B724340378004BAF12 /* SKAction+Colorize.swift */; };
+		F7E720BD243403A3004BAF12 /* LinearInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720BC243403A3004BAF12 /* LinearInterpolation.swift */; };
+		F7E720BE243403A3004BAF12 /* LinearInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720BC243403A3004BAF12 /* LinearInterpolation.swift */; };
+		F7E720BF243403A3004BAF12 /* LinearInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720BC243403A3004BAF12 /* LinearInterpolation.swift */; };
+		F7E720C0243403A3004BAF12 /* LinearInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720BC243403A3004BAF12 /* LinearInterpolation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +40,8 @@
 		F7E720872433F5AF004BAF12 /* SKAction+Infinite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKAction+Infinite.swift"; sourceTree = "<group>"; };
 		F7E720902433F622004BAF12 /* Int+Angles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Angles.swift"; sourceTree = "<group>"; };
 		F7E720972433F678004BAF12 /* SKAction+Pulse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKAction+Pulse.swift"; sourceTree = "<group>"; };
+		F7E720B724340378004BAF12 /* SKAction+Colorize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKAction+Colorize.swift"; sourceTree = "<group>"; };
+		F7E720BC243403A3004BAF12 /* LinearInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearInterpolation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,7 @@
 		F7E7208C2433F5C0004BAF12 /* SourceCode */ = {
 			isa = PBXGroup;
 			children = (
+				F7E720C1243403A8004BAF12 /* Functions */,
 				F7E7208D2433F5D9004BAF12 /* Extensions */,
 			);
 			path = SourceCode;
@@ -131,6 +142,7 @@
 		F7E7208F2433F5EE004BAF12 /* Action */ = {
 			isa = PBXGroup;
 			children = (
+				F7E720B724340378004BAF12 /* SKAction+Colorize.swift */,
 				F7E720972433F678004BAF12 /* SKAction+Pulse.swift */,
 				F7E720872433F5AF004BAF12 /* SKAction+Infinite.swift */,
 			);
@@ -151,6 +163,14 @@
 				F7E720902433F622004BAF12 /* Int+Angles.swift */,
 			);
 			path = Integer;
+			sourceTree = "<group>";
+		};
+		F7E720C1243403A8004BAF12 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				F7E720BC243403A3004BAF12 /* LinearInterpolation.swift */,
+			);
+			path = Functions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,7 +364,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7E720B824340378004BAF12 /* SKAction+Colorize.swift in Sources */,
 				F7E720882433F5AF004BAF12 /* SKAction+Infinite.swift in Sources */,
+				F7E720BD243403A3004BAF12 /* LinearInterpolation.swift in Sources */,
 				F7E720982433F678004BAF12 /* SKAction+Pulse.swift in Sources */,
 				F7E720912433F622004BAF12 /* Int+Angles.swift in Sources */,
 			);
@@ -354,7 +376,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7E720B924340378004BAF12 /* SKAction+Colorize.swift in Sources */,
 				F7E720892433F5AF004BAF12 /* SKAction+Infinite.swift in Sources */,
+				F7E720BE243403A3004BAF12 /* LinearInterpolation.swift in Sources */,
 				F7E720992433F678004BAF12 /* SKAction+Pulse.swift in Sources */,
 				F7E720922433F622004BAF12 /* Int+Angles.swift in Sources */,
 			);
@@ -364,7 +388,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7E720BA24340378004BAF12 /* SKAction+Colorize.swift in Sources */,
 				F7E7208A2433F5AF004BAF12 /* SKAction+Infinite.swift in Sources */,
+				F7E720BF243403A3004BAF12 /* LinearInterpolation.swift in Sources */,
 				F7E7209A2433F678004BAF12 /* SKAction+Pulse.swift in Sources */,
 				F7E720932433F622004BAF12 /* Int+Angles.swift in Sources */,
 			);
@@ -374,7 +400,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7E720BB24340378004BAF12 /* SKAction+Colorize.swift in Sources */,
 				F7E7208B2433F5AF004BAF12 /* SKAction+Infinite.swift in Sources */,
+				F7E720C0243403A3004BAF12 /* LinearInterpolation.swift in Sources */,
 				F7E7209B2433F678004BAF12 /* SKAction+Pulse.swift in Sources */,
 				F7E720942433F622004BAF12 /* Int+Angles.swift in Sources */,
 			);
@@ -574,7 +602,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ZenSpriteKit-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -603,7 +631,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ZenSpriteKit-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -637,7 +665,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Debug;
 		};
@@ -664,7 +692,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Release;
 		};
@@ -693,7 +721,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Debug;
 		};
@@ -721,7 +749,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Release;
 		};
