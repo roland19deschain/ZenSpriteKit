@@ -8,16 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		F7E720542433F050004BAF12 /* ZenSpriteKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E720522433F050004BAF12 /* ZenSpriteKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7E720712433F22A004BAF12 /* ZenSpriteKit_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E7206F2433F22A004BAF12 /* ZenSpriteKit_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7E7207E2433F237004BAF12 /* ZenSpriteKit_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E7207C2433F237004BAF12 /* ZenSpriteKit_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F7E7204F2433F050004BAF12 /* ZenSpriteKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSpriteKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E7204F2433F050004BAF12 /* ZenSpriteKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSpriteKit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E720522433F050004BAF12 /* ZenSpriteKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZenSpriteKit.h; sourceTree = "<group>"; };
 		F7E720532433F050004BAF12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7E720602433F130004BAF12 /* ZenSpriteKit_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSpriteKit_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E7206D2433F22A004BAF12 /* ZenSpriteKit_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSpriteKit_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E7206F2433F22A004BAF12 /* ZenSpriteKit_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZenSpriteKit_tvOS.h; sourceTree = "<group>"; };
+		F7E720702433F22A004BAF12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7E7207A2433F237004BAF12 /* ZenSpriteKit_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSpriteKit_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E7207C2433F237004BAF12 /* ZenSpriteKit_watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZenSpriteKit_watchOS.h; sourceTree = "<group>"; };
+		F7E7207D2433F237004BAF12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F7E7204C2433F050004BAF12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E7205D2433F130004BAF12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E7206A2433F22A004BAF12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E720772433F237004BAF12 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -31,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				F7E720512433F050004BAF12 /* ZenSpriteKit */,
+				F7E7206E2433F22A004BAF12 /* ZenSpriteKit-tvOS */,
+				F7E7207B2433F237004BAF12 /* ZenSpriteKit-watchOS */,
 				F7E720502433F050004BAF12 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -38,7 +70,10 @@
 		F7E720502433F050004BAF12 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F7E7204F2433F050004BAF12 /* ZenSpriteKit.framework */,
+				F7E7204F2433F050004BAF12 /* ZenSpriteKit_iOS.framework */,
+				F7E720602433F130004BAF12 /* ZenSpriteKit_macOS.framework */,
+				F7E7206D2433F22A004BAF12 /* ZenSpriteKit_tvOS.framework */,
+				F7E7207A2433F237004BAF12 /* ZenSpriteKit_watchOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +95,24 @@
 			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
+		F7E7206E2433F22A004BAF12 /* ZenSpriteKit-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				F7E7206F2433F22A004BAF12 /* ZenSpriteKit_tvOS.h */,
+				F7E720702433F22A004BAF12 /* Info.plist */,
+			);
+			path = "ZenSpriteKit-tvOS";
+			sourceTree = "<group>";
+		};
+		F7E7207B2433F237004BAF12 /* ZenSpriteKit-watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				F7E7207C2433F237004BAF12 /* ZenSpriteKit_watchOS.h */,
+				F7E7207D2433F237004BAF12 /* Info.plist */,
+			);
+			path = "ZenSpriteKit-watchOS";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -71,12 +124,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7E7205B2433F130004BAF12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E720682433F22A004BAF12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E720712433F22A004BAF12 /* ZenSpriteKit_tvOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E720752433F237004BAF12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E7207E2433F237004BAF12 /* ZenSpriteKit_watchOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F7E7204E2433F050004BAF12 /* ZenSpriteKit */ = {
+		F7E7204E2433F050004BAF12 /* ZenSpriteKit-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7E720572433F050004BAF12 /* Build configuration list for PBXNativeTarget "ZenSpriteKit" */;
+			buildConfigurationList = F7E720572433F050004BAF12 /* Build configuration list for PBXNativeTarget "ZenSpriteKit-iOS" */;
 			buildPhases = (
 				F7E7204A2433F050004BAF12 /* Headers */,
 				F7E7204B2433F050004BAF12 /* Sources */,
@@ -87,9 +163,63 @@
 			);
 			dependencies = (
 			);
-			name = ZenSpriteKit;
+			name = "ZenSpriteKit-iOS";
 			productName = ZenSpriteKit;
-			productReference = F7E7204F2433F050004BAF12 /* ZenSpriteKit.framework */;
+			productReference = F7E7204F2433F050004BAF12 /* ZenSpriteKit_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7E7205F2433F130004BAF12 /* ZenSpriteKit-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E720672433F130004BAF12 /* Build configuration list for PBXNativeTarget "ZenSpriteKit-macOS" */;
+			buildPhases = (
+				F7E7205B2433F130004BAF12 /* Headers */,
+				F7E7205C2433F130004BAF12 /* Sources */,
+				F7E7205D2433F130004BAF12 /* Frameworks */,
+				F7E7205E2433F130004BAF12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZenSpriteKit-macOS";
+			productName = "ZenSpriteKit-macOS";
+			productReference = F7E720602433F130004BAF12 /* ZenSpriteKit_macOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7E7206C2433F22A004BAF12 /* ZenSpriteKit-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E720722433F22A004BAF12 /* Build configuration list for PBXNativeTarget "ZenSpriteKit-tvOS" */;
+			buildPhases = (
+				F7E720682433F22A004BAF12 /* Headers */,
+				F7E720692433F22A004BAF12 /* Sources */,
+				F7E7206A2433F22A004BAF12 /* Frameworks */,
+				F7E7206B2433F22A004BAF12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZenSpriteKit-tvOS";
+			productName = "ZenSpriteKit-tvOS";
+			productReference = F7E7206D2433F22A004BAF12 /* ZenSpriteKit_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7E720792433F237004BAF12 /* ZenSpriteKit-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E7207F2433F237004BAF12 /* Build configuration list for PBXNativeTarget "ZenSpriteKit-watchOS" */;
+			buildPhases = (
+				F7E720752433F237004BAF12 /* Headers */,
+				F7E720762433F237004BAF12 /* Sources */,
+				F7E720772433F237004BAF12 /* Frameworks */,
+				F7E720782433F237004BAF12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZenSpriteKit-watchOS";
+			productName = "ZenSpriteKit-watchOS";
+			productReference = F7E7207A2433F237004BAF12 /* ZenSpriteKit_watchOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -102,6 +232,15 @@
 				ORGANIZATIONNAME = Nebula;
 				TargetAttributes = {
 					F7E7204E2433F050004BAF12 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					F7E7205F2433F130004BAF12 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					F7E7206C2433F22A004BAF12 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					F7E720792433F237004BAF12 = {
 						CreatedOnToolsVersion = 11.4;
 					};
 				};
@@ -119,7 +258,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F7E7204E2433F050004BAF12 /* ZenSpriteKit */,
+				F7E7204E2433F050004BAF12 /* ZenSpriteKit-iOS */,
+				F7E7205F2433F130004BAF12 /* ZenSpriteKit-macOS */,
+				F7E7206C2433F22A004BAF12 /* ZenSpriteKit-tvOS */,
+				F7E720792433F237004BAF12 /* ZenSpriteKit-watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -132,10 +274,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7E7205E2433F130004BAF12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E7206B2433F22A004BAF12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E720782433F237004BAF12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F7E7204B2433F050004BAF12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E7205C2433F130004BAF12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E720692433F22A004BAF12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E720762433F237004BAF12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -276,12 +460,13 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = ZenSpriteKit/SupportingFiles/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Nebula.ZenSpriteKit;
+				PRODUCT_BUNDLE_IDENTIFIER = "ZenSpriteKit-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -300,16 +485,177 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = ZenSpriteKit/SupportingFiles/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Nebula.ZenSpriteKit;
+				PRODUCT_BUNDLE_IDENTIFIER = "ZenSpriteKit-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7E720652433F130004BAF12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7CK9FQY54K;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZenSpriteKit/SupportingFiles/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ZenSpriteKit-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F7E720662433F130004BAF12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7CK9FQY54K;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZenSpriteKit/SupportingFiles/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ZenSpriteKit-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F7E720732433F22A004BAF12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7CK9FQY54K;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZenSpriteKit/SupportingFiles/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ZenSpriteKit-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		F7E720742433F22A004BAF12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7CK9FQY54K;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZenSpriteKit/SupportingFiles/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ZenSpriteKit-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		F7E720802433F237004BAF12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7CK9FQY54K;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZenSpriteKit/SupportingFiles/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ZenSpriteKit-watchOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		F7E720812433F237004BAF12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7CK9FQY54K;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZenSpriteKit/SupportingFiles/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ZenSpriteKit-watchOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -325,11 +671,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7E720572433F050004BAF12 /* Build configuration list for PBXNativeTarget "ZenSpriteKit" */ = {
+		F7E720572433F050004BAF12 /* Build configuration list for PBXNativeTarget "ZenSpriteKit-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7E720582433F050004BAF12 /* Debug */,
 				F7E720592433F050004BAF12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7E720672433F130004BAF12 /* Build configuration list for PBXNativeTarget "ZenSpriteKit-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E720652433F130004BAF12 /* Debug */,
+				F7E720662433F130004BAF12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7E720722433F22A004BAF12 /* Build configuration list for PBXNativeTarget "ZenSpriteKit-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E720732433F22A004BAF12 /* Debug */,
+				F7E720742433F22A004BAF12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7E7207F2433F237004BAF12 /* Build configuration list for PBXNativeTarget "ZenSpriteKit-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E720802433F237004BAF12 /* Debug */,
+				F7E720812433F237004BAF12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
