@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		F7E720542433F050004BAF12 /* ZenSpriteKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E720522433F050004BAF12 /* ZenSpriteKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7E720882433F5AF004BAF12 /* SKAction+Infinite.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720872433F5AF004BAF12 /* SKAction+Infinite.swift */; };
+		F7E720892433F5AF004BAF12 /* SKAction+Infinite.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720872433F5AF004BAF12 /* SKAction+Infinite.swift */; };
+		F7E7208A2433F5AF004BAF12 /* SKAction+Infinite.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720872433F5AF004BAF12 /* SKAction+Infinite.swift */; };
+		F7E7208B2433F5AF004BAF12 /* SKAction+Infinite.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720872433F5AF004BAF12 /* SKAction+Infinite.swift */; };
+		F7E720912433F622004BAF12 /* Int+Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720902433F622004BAF12 /* Int+Angles.swift */; };
+		F7E720922433F622004BAF12 /* Int+Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720902433F622004BAF12 /* Int+Angles.swift */; };
+		F7E720932433F622004BAF12 /* Int+Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720902433F622004BAF12 /* Int+Angles.swift */; };
+		F7E720942433F622004BAF12 /* Int+Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720902433F622004BAF12 /* Int+Angles.swift */; };
+		F7E720982433F678004BAF12 /* SKAction+Pulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720972433F678004BAF12 /* SKAction+Pulse.swift */; };
+		F7E720992433F678004BAF12 /* SKAction+Pulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720972433F678004BAF12 /* SKAction+Pulse.swift */; };
+		F7E7209A2433F678004BAF12 /* SKAction+Pulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720972433F678004BAF12 /* SKAction+Pulse.swift */; };
+		F7E7209B2433F678004BAF12 /* SKAction+Pulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720972433F678004BAF12 /* SKAction+Pulse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +29,9 @@
 		F7E720602433F130004BAF12 /* ZenSpriteKit_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSpriteKit_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E7206D2433F22A004BAF12 /* ZenSpriteKit_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSpriteKit_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E7207A2433F237004BAF12 /* ZenSpriteKit_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSpriteKit_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E720872433F5AF004BAF12 /* SKAction+Infinite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKAction+Infinite.swift"; sourceTree = "<group>"; };
+		F7E720902433F622004BAF12 /* Int+Angles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Angles.swift"; sourceTree = "<group>"; };
+		F7E720972433F678004BAF12 /* SKAction+Pulse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKAction+Pulse.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +88,7 @@
 		F7E720512433F050004BAF12 /* ZenSpriteKit */ = {
 			isa = PBXGroup;
 			children = (
+				F7E7208C2433F5C0004BAF12 /* SourceCode */,
 				F7E7205A2433F090004BAF12 /* SupportingFiles */,
 			);
 			path = ZenSpriteKit;
@@ -85,6 +101,56 @@
 				F7E720532433F050004BAF12 /* Info.plist */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		F7E7208C2433F5C0004BAF12 /* SourceCode */ = {
+			isa = PBXGroup;
+			children = (
+				F7E7208D2433F5D9004BAF12 /* Extensions */,
+			);
+			path = SourceCode;
+			sourceTree = "<group>";
+		};
+		F7E7208D2433F5D9004BAF12 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F7E7208E2433F5E4004BAF12 /* SpriteKit */,
+				F7E720952433F626004BAF12 /* Swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F7E7208E2433F5E4004BAF12 /* SpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				F7E7208F2433F5EE004BAF12 /* Action */,
+			);
+			path = SpriteKit;
+			sourceTree = "<group>";
+		};
+		F7E7208F2433F5EE004BAF12 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				F7E720972433F678004BAF12 /* SKAction+Pulse.swift */,
+				F7E720872433F5AF004BAF12 /* SKAction+Infinite.swift */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		F7E720952433F626004BAF12 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				F7E720962433F62B004BAF12 /* Integer */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		F7E720962433F62B004BAF12 /* Integer */ = {
+			isa = PBXGroup;
+			children = (
+				F7E720902433F622004BAF12 /* Int+Angles.swift */,
+			);
+			path = Integer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,15 +271,19 @@
 				TargetAttributes = {
 					F7E7204E2433F050004BAF12 = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 					F7E7205F2433F130004BAF12 = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 					F7E7206C2433F22A004BAF12 = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 					F7E720792433F237004BAF12 = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -274,6 +344,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7E720882433F5AF004BAF12 /* SKAction+Infinite.swift in Sources */,
+				F7E720982433F678004BAF12 /* SKAction+Pulse.swift in Sources */,
+				F7E720912433F622004BAF12 /* Int+Angles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +354,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7E720892433F5AF004BAF12 /* SKAction+Infinite.swift in Sources */,
+				F7E720992433F678004BAF12 /* SKAction+Pulse.swift in Sources */,
+				F7E720922433F622004BAF12 /* Int+Angles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +364,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7E7208A2433F5AF004BAF12 /* SKAction+Infinite.swift in Sources */,
+				F7E7209A2433F678004BAF12 /* SKAction+Pulse.swift in Sources */,
+				F7E720932433F622004BAF12 /* Int+Angles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +374,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7E7208B2433F5AF004BAF12 /* SKAction+Infinite.swift in Sources */,
+				F7E7209B2433F678004BAF12 /* SKAction+Pulse.swift in Sources */,
+				F7E720942433F622004BAF12 /* Int+Angles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +506,7 @@
 		F7E720582433F050004BAF12 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7CK9FQY54K;
@@ -441,6 +524,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ZenSpriteKit-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,6 +533,7 @@
 		F7E720592433F050004BAF12 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7CK9FQY54K;
@@ -474,6 +559,7 @@
 		F7E720652433F130004BAF12 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -494,6 +580,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -501,6 +588,7 @@
 		F7E720662433F130004BAF12 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -528,6 +616,7 @@
 		F7E720732433F22A004BAF12 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7CK9FQY54K;
@@ -545,6 +634,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
@@ -554,6 +644,7 @@
 		F7E720742433F22A004BAF12 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7CK9FQY54K;
@@ -581,6 +672,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7CK9FQY54K;
@@ -598,6 +690,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
@@ -608,6 +701,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7CK9FQY54K;
