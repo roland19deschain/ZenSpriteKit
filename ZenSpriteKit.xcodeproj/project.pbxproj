@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F7E720542433F050004BAF12 /* ZenSpriteKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E720522433F050004BAF12 /* ZenSpriteKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7E720712433F22A004BAF12 /* ZenSpriteKit_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E7206F2433F22A004BAF12 /* ZenSpriteKit_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7E7207E2433F237004BAF12 /* ZenSpriteKit_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E7207C2433F237004BAF12 /* ZenSpriteKit_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,11 +16,7 @@
 		F7E720532433F050004BAF12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7E720602433F130004BAF12 /* ZenSpriteKit_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSpriteKit_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E7206D2433F22A004BAF12 /* ZenSpriteKit_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSpriteKit_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7E7206F2433F22A004BAF12 /* ZenSpriteKit_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZenSpriteKit_tvOS.h; sourceTree = "<group>"; };
-		F7E720702433F22A004BAF12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7E7207A2433F237004BAF12 /* ZenSpriteKit_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSpriteKit_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7E7207C2433F237004BAF12 /* ZenSpriteKit_watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZenSpriteKit_watchOS.h; sourceTree = "<group>"; };
-		F7E7207D2433F237004BAF12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				F7E720512433F050004BAF12 /* ZenSpriteKit */,
-				F7E7206E2433F22A004BAF12 /* ZenSpriteKit-tvOS */,
-				F7E7207B2433F237004BAF12 /* ZenSpriteKit-watchOS */,
 				F7E720502433F050004BAF12 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,24 +87,6 @@
 			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
-		F7E7206E2433F22A004BAF12 /* ZenSpriteKit-tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				F7E7206F2433F22A004BAF12 /* ZenSpriteKit_tvOS.h */,
-				F7E720702433F22A004BAF12 /* Info.plist */,
-			);
-			path = "ZenSpriteKit-tvOS";
-			sourceTree = "<group>";
-		};
-		F7E7207B2433F237004BAF12 /* ZenSpriteKit-watchOS */ = {
-			isa = PBXGroup;
-			children = (
-				F7E7207C2433F237004BAF12 /* ZenSpriteKit_watchOS.h */,
-				F7E7207D2433F237004BAF12 /* Info.plist */,
-			);
-			path = "ZenSpriteKit-watchOS";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -135,7 +109,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7E720712433F22A004BAF12 /* ZenSpriteKit_tvOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +116,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7E7207E2433F237004BAF12 /* ZenSpriteKit_watchOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
