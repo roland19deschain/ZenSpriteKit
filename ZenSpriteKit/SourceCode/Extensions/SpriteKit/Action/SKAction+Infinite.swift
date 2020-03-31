@@ -1,6 +1,6 @@
 import SpriteKit
 
-extension SKAction {
+public extension SKAction {
 	
 	/// Returns an endless repetition of the receiver.
 	var infinite: SKAction {

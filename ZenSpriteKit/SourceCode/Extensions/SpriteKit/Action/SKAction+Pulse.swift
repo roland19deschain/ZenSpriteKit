@@ -1,6 +1,6 @@
 import SpriteKit
 
-extension SKAction {
+public extension SKAction {
 	
 	/// Returns the sequence consisting of the receiver and its reverse action.
 	var pulse: SKAction {
