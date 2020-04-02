@@ -2,13 +2,17 @@ import SpriteKit
 
 public extension SKAction {
 	
-	/// Colorize instance of SKShapeNode (both stroke and fill colors).
+	/**
+	Creates an action that colorize instance of SKShapeNode (both stroke and fill colors).
+	- parameter from: The starting color for the shape node.
+	- parameter to: The new color for the shape node.
+	- parameter duration: The duration of the action, in seconds.
+	*/
 	static func colorizeShape(
 		from: SKColor,
 		to: SKColor,
 		duration: TimeInterval
-	) -> SKAction
-	{
+	) -> SKAction {
 		var (fr, fg, fb, fa) = (CGFloat(0), CGFloat(0), CGFloat(0), CGFloat(0))
 		var (tr, tg, tb, ta) = (CGFloat(0), CGFloat(0), CGFloat(0), CGFloat(0))
 		
@@ -33,13 +37,17 @@ public extension SKAction {
 		}
 	}
 	
-	/// Colorize an instance of SKLabelNode (font color).
+	/**
+	Creates an action that colorize instance of SKLabelNode.
+	- parameter from: The starting color for the label node.
+	- parameter to: The new color for the label node.
+	- parameter duration: The duration of the action, in seconds.
+	*/
 	static func colorizeLabel(
 		from: SKColor,
 		to: SKColor,
 		duration: TimeInterval
-	) -> SKAction
-	{
+	) -> SKAction {
 		var (fr, fg, fb, fa) = (CGFloat(0), CGFloat(0), CGFloat(0), CGFloat(0))
 		var (tr, tg, tb, ta) = (CGFloat(0), CGFloat(0), CGFloat(0), CGFloat(0))
 		
