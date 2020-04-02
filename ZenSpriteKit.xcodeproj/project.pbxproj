@@ -28,6 +28,54 @@
 		F7E720BE243403A3004BAF12 /* LinearInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720BC243403A3004BAF12 /* LinearInterpolation.swift */; };
 		F7E720BF243403A3004BAF12 /* LinearInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720BC243403A3004BAF12 /* LinearInterpolation.swift */; };
 		F7E720C0243403A3004BAF12 /* LinearInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720BC243403A3004BAF12 /* LinearInterpolation.swift */; };
+		F7E720C324369BC5004BAF12 /* SKAction+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720C224369BC5004BAF12 /* SKAction+Convenience.swift */; };
+		F7E720C424369BC5004BAF12 /* SKAction+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720C224369BC5004BAF12 /* SKAction+Convenience.swift */; };
+		F7E720C524369BC5004BAF12 /* SKAction+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720C224369BC5004BAF12 /* SKAction+Convenience.swift */; };
+		F7E720C624369BC9004BAF12 /* SKAction+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720C224369BC5004BAF12 /* SKAction+Convenience.swift */; };
+		F7E720C824369C75004BAF12 /* Array+SKAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720C724369C75004BAF12 /* Array+SKAction.swift */; };
+		F7E720C924369C75004BAF12 /* Array+SKAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720C724369C75004BAF12 /* Array+SKAction.swift */; };
+		F7E720CA24369C75004BAF12 /* Array+SKAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720C724369C75004BAF12 /* Array+SKAction.swift */; };
+		F7E720CB24369C75004BAF12 /* Array+SKAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720C724369C75004BAF12 /* Array+SKAction.swift */; };
+		F7E720CD24369E83004BAF12 /* SKAction+BounceInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720CC24369E83004BAF12 /* SKAction+BounceInterpolation.swift */; };
+		F7E720CE24369E83004BAF12 /* SKAction+BounceInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720CC24369E83004BAF12 /* SKAction+BounceInterpolation.swift */; };
+		F7E720CF24369E83004BAF12 /* SKAction+BounceInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720CC24369E83004BAF12 /* SKAction+BounceInterpolation.swift */; };
+		F7E720D024369E83004BAF12 /* SKAction+BounceInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720CC24369E83004BAF12 /* SKAction+BounceInterpolation.swift */; };
+		F7E720D824369F87004BAF12 /* SKAction+BounceAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720D724369F87004BAF12 /* SKAction+BounceAnimate.swift */; };
+		F7E720D924369F87004BAF12 /* SKAction+BounceAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720D724369F87004BAF12 /* SKAction+BounceAnimate.swift */; };
+		F7E720DA24369F87004BAF12 /* SKAction+BounceAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720D724369F87004BAF12 /* SKAction+BounceAnimate.swift */; };
+		F7E720DB24369F87004BAF12 /* SKAction+BounceAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720D724369F87004BAF12 /* SKAction+BounceAnimate.swift */; };
+		F7E720DE24369FDB004BAF12 /* SKAction+BounceMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720DD24369FDB004BAF12 /* SKAction+BounceMove.swift */; };
+		F7E720DF24369FDB004BAF12 /* SKAction+BounceMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720DD24369FDB004BAF12 /* SKAction+BounceMove.swift */; };
+		F7E720E024369FDB004BAF12 /* SKAction+BounceMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720DD24369FDB004BAF12 /* SKAction+BounceMove.swift */; };
+		F7E720E124369FDB004BAF12 /* SKAction+BounceMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720DD24369FDB004BAF12 /* SKAction+BounceMove.swift */; };
+		F7E720E32436A131004BAF12 /* SKAction+BounceScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720E22436A131004BAF12 /* SKAction+BounceScale.swift */; };
+		F7E720E42436A131004BAF12 /* SKAction+BounceScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720E22436A131004BAF12 /* SKAction+BounceScale.swift */; };
+		F7E720E52436A131004BAF12 /* SKAction+BounceScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720E22436A131004BAF12 /* SKAction+BounceScale.swift */; };
+		F7E720E62436A131004BAF12 /* SKAction+BounceScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720E22436A131004BAF12 /* SKAction+BounceScale.swift */; };
+		F7E720E82436A173004BAF12 /* SKAction+BounceSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720E72436A173004BAF12 /* SKAction+BounceSpeed.swift */; };
+		F7E720E92436A173004BAF12 /* SKAction+BounceSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720E72436A173004BAF12 /* SKAction+BounceSpeed.swift */; };
+		F7E720EA2436A173004BAF12 /* SKAction+BounceSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720E72436A173004BAF12 /* SKAction+BounceSpeed.swift */; };
+		F7E720EB2436A173004BAF12 /* SKAction+BounceSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720E72436A173004BAF12 /* SKAction+BounceSpeed.swift */; };
+		F7E720ED2436A1A7004BAF12 /* SKAction+BounceColorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720EC2436A1A7004BAF12 /* SKAction+BounceColorize.swift */; };
+		F7E720EE2436A1A7004BAF12 /* SKAction+BounceColorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720EC2436A1A7004BAF12 /* SKAction+BounceColorize.swift */; };
+		F7E720EF2436A1A7004BAF12 /* SKAction+BounceColorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720EC2436A1A7004BAF12 /* SKAction+BounceColorize.swift */; };
+		F7E720F02436A1A7004BAF12 /* SKAction+BounceColorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720EC2436A1A7004BAF12 /* SKAction+BounceColorize.swift */; };
+		F7E720F22436A1C6004BAF12 /* SKAction+BounceFade.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720F12436A1C6004BAF12 /* SKAction+BounceFade.swift */; };
+		F7E720F32436A1C6004BAF12 /* SKAction+BounceFade.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720F12436A1C6004BAF12 /* SKAction+BounceFade.swift */; };
+		F7E720F42436A1C6004BAF12 /* SKAction+BounceFade.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720F12436A1C6004BAF12 /* SKAction+BounceFade.swift */; };
+		F7E720F52436A1C6004BAF12 /* SKAction+BounceFade.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720F12436A1C6004BAF12 /* SKAction+BounceFade.swift */; };
+		F7E720F72436A21C004BAF12 /* SKAction+BounceRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720F62436A21C004BAF12 /* SKAction+BounceRotate.swift */; };
+		F7E720F82436A21C004BAF12 /* SKAction+BounceRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720F62436A21C004BAF12 /* SKAction+BounceRotate.swift */; };
+		F7E720F92436A21C004BAF12 /* SKAction+BounceRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720F62436A21C004BAF12 /* SKAction+BounceRotate.swift */; };
+		F7E720FA2436A21C004BAF12 /* SKAction+BounceRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720F62436A21C004BAF12 /* SKAction+BounceRotate.swift */; };
+		F7E720FC2436A23A004BAF12 /* SKAction+BounceResize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720FB2436A23A004BAF12 /* SKAction+BounceResize.swift */; };
+		F7E720FD2436A23A004BAF12 /* SKAction+BounceResize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720FB2436A23A004BAF12 /* SKAction+BounceResize.swift */; };
+		F7E720FE2436A23A004BAF12 /* SKAction+BounceResize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720FB2436A23A004BAF12 /* SKAction+BounceResize.swift */; };
+		F7E720FF2436A23A004BAF12 /* SKAction+BounceResize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720FB2436A23A004BAF12 /* SKAction+BounceResize.swift */; };
+		F7E721012436A2E0004BAF12 /* SKAction+Textures.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E721002436A2E0004BAF12 /* SKAction+Textures.swift */; };
+		F7E721022436A2E0004BAF12 /* SKAction+Textures.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E721002436A2E0004BAF12 /* SKAction+Textures.swift */; };
+		F7E721032436A2E0004BAF12 /* SKAction+Textures.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E721002436A2E0004BAF12 /* SKAction+Textures.swift */; };
+		F7E721042436A2E0004BAF12 /* SKAction+Textures.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E721002436A2E0004BAF12 /* SKAction+Textures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +90,18 @@
 		F7E720972433F678004BAF12 /* SKAction+Pulse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKAction+Pulse.swift"; sourceTree = "<group>"; };
 		F7E720B724340378004BAF12 /* SKAction+Colorize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKAction+Colorize.swift"; sourceTree = "<group>"; };
 		F7E720BC243403A3004BAF12 /* LinearInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearInterpolation.swift; sourceTree = "<group>"; };
+		F7E720C224369BC5004BAF12 /* SKAction+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKAction+Convenience.swift"; sourceTree = "<group>"; };
+		F7E720C724369C75004BAF12 /* Array+SKAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+SKAction.swift"; sourceTree = "<group>"; };
+		F7E720CC24369E83004BAF12 /* SKAction+BounceInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKAction+BounceInterpolation.swift"; sourceTree = "<group>"; };
+		F7E720D724369F87004BAF12 /* SKAction+BounceAnimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKAction+BounceAnimate.swift"; sourceTree = "<group>"; };
+		F7E720DD24369FDB004BAF12 /* SKAction+BounceMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKAction+BounceMove.swift"; sourceTree = "<group>"; };
+		F7E720E22436A131004BAF12 /* SKAction+BounceScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKAction+BounceScale.swift"; sourceTree = "<group>"; };
+		F7E720E72436A173004BAF12 /* SKAction+BounceSpeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKAction+BounceSpeed.swift"; sourceTree = "<group>"; };
+		F7E720EC2436A1A7004BAF12 /* SKAction+BounceColorize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKAction+BounceColorize.swift"; sourceTree = "<group>"; };
+		F7E720F12436A1C6004BAF12 /* SKAction+BounceFade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKAction+BounceFade.swift"; sourceTree = "<group>"; };
+		F7E720F62436A21C004BAF12 /* SKAction+BounceRotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKAction+BounceRotate.swift"; sourceTree = "<group>"; };
+		F7E720FB2436A23A004BAF12 /* SKAction+BounceResize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKAction+BounceResize.swift"; sourceTree = "<group>"; };
+		F7E721002436A2E0004BAF12 /* SKAction+Textures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKAction+Textures.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,9 +202,13 @@
 		F7E7208F2433F5EE004BAF12 /* Action */ = {
 			isa = PBXGroup;
 			children = (
+				F7E720D124369E94004BAF12 /* Bounce */,
 				F7E720B724340378004BAF12 /* SKAction+Colorize.swift */,
+				F7E721002436A2E0004BAF12 /* SKAction+Textures.swift */,
+				F7E720C224369BC5004BAF12 /* SKAction+Convenience.swift */,
 				F7E720972433F678004BAF12 /* SKAction+Pulse.swift */,
 				F7E720872433F5AF004BAF12 /* SKAction+Infinite.swift */,
+				F7E720C724369C75004BAF12 /* Array+SKAction.swift */,
 			);
 			path = Action;
 			sourceTree = "<group>";
@@ -171,6 +235,22 @@
 				F7E720BC243403A3004BAF12 /* LinearInterpolation.swift */,
 			);
 			path = Functions;
+			sourceTree = "<group>";
+		};
+		F7E720D124369E94004BAF12 /* Bounce */ = {
+			isa = PBXGroup;
+			children = (
+				F7E720CC24369E83004BAF12 /* SKAction+BounceInterpolation.swift */,
+				F7E720D724369F87004BAF12 /* SKAction+BounceAnimate.swift */,
+				F7E720DD24369FDB004BAF12 /* SKAction+BounceMove.swift */,
+				F7E720E22436A131004BAF12 /* SKAction+BounceScale.swift */,
+				F7E720E72436A173004BAF12 /* SKAction+BounceSpeed.swift */,
+				F7E720EC2436A1A7004BAF12 /* SKAction+BounceColorize.swift */,
+				F7E720F12436A1C6004BAF12 /* SKAction+BounceFade.swift */,
+				F7E720F62436A21C004BAF12 /* SKAction+BounceRotate.swift */,
+				F7E720FB2436A23A004BAF12 /* SKAction+BounceResize.swift */,
+			);
+			path = Bounce;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,11 +444,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7E720E32436A131004BAF12 /* SKAction+BounceScale.swift in Sources */,
+				F7E720CD24369E83004BAF12 /* SKAction+BounceInterpolation.swift in Sources */,
 				F7E720B824340378004BAF12 /* SKAction+Colorize.swift in Sources */,
+				F7E720F72436A21C004BAF12 /* SKAction+BounceRotate.swift in Sources */,
+				F7E720DE24369FDB004BAF12 /* SKAction+BounceMove.swift in Sources */,
+				F7E721012436A2E0004BAF12 /* SKAction+Textures.swift in Sources */,
 				F7E720882433F5AF004BAF12 /* SKAction+Infinite.swift in Sources */,
+				F7E720E82436A173004BAF12 /* SKAction+BounceSpeed.swift in Sources */,
 				F7E720BD243403A3004BAF12 /* LinearInterpolation.swift in Sources */,
+				F7E720C824369C75004BAF12 /* Array+SKAction.swift in Sources */,
+				F7E720C324369BC5004BAF12 /* SKAction+Convenience.swift in Sources */,
 				F7E720982433F678004BAF12 /* SKAction+Pulse.swift in Sources */,
+				F7E720FC2436A23A004BAF12 /* SKAction+BounceResize.swift in Sources */,
 				F7E720912433F622004BAF12 /* Int+Angles.swift in Sources */,
+				F7E720ED2436A1A7004BAF12 /* SKAction+BounceColorize.swift in Sources */,
+				F7E720D824369F87004BAF12 /* SKAction+BounceAnimate.swift in Sources */,
+				F7E720F22436A1C6004BAF12 /* SKAction+BounceFade.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,11 +468,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7E720E42436A131004BAF12 /* SKAction+BounceScale.swift in Sources */,
+				F7E720CE24369E83004BAF12 /* SKAction+BounceInterpolation.swift in Sources */,
 				F7E720B924340378004BAF12 /* SKAction+Colorize.swift in Sources */,
+				F7E720F82436A21C004BAF12 /* SKAction+BounceRotate.swift in Sources */,
+				F7E720DF24369FDB004BAF12 /* SKAction+BounceMove.swift in Sources */,
+				F7E721022436A2E0004BAF12 /* SKAction+Textures.swift in Sources */,
 				F7E720892433F5AF004BAF12 /* SKAction+Infinite.swift in Sources */,
+				F7E720E92436A173004BAF12 /* SKAction+BounceSpeed.swift in Sources */,
 				F7E720BE243403A3004BAF12 /* LinearInterpolation.swift in Sources */,
+				F7E720C924369C75004BAF12 /* Array+SKAction.swift in Sources */,
+				F7E720C424369BC5004BAF12 /* SKAction+Convenience.swift in Sources */,
 				F7E720992433F678004BAF12 /* SKAction+Pulse.swift in Sources */,
+				F7E720FD2436A23A004BAF12 /* SKAction+BounceResize.swift in Sources */,
 				F7E720922433F622004BAF12 /* Int+Angles.swift in Sources */,
+				F7E720EE2436A1A7004BAF12 /* SKAction+BounceColorize.swift in Sources */,
+				F7E720D924369F87004BAF12 /* SKAction+BounceAnimate.swift in Sources */,
+				F7E720F32436A1C6004BAF12 /* SKAction+BounceFade.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,11 +492,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7E720E52436A131004BAF12 /* SKAction+BounceScale.swift in Sources */,
+				F7E720CF24369E83004BAF12 /* SKAction+BounceInterpolation.swift in Sources */,
 				F7E720BA24340378004BAF12 /* SKAction+Colorize.swift in Sources */,
+				F7E720F92436A21C004BAF12 /* SKAction+BounceRotate.swift in Sources */,
+				F7E720E024369FDB004BAF12 /* SKAction+BounceMove.swift in Sources */,
+				F7E721032436A2E0004BAF12 /* SKAction+Textures.swift in Sources */,
 				F7E7208A2433F5AF004BAF12 /* SKAction+Infinite.swift in Sources */,
+				F7E720EA2436A173004BAF12 /* SKAction+BounceSpeed.swift in Sources */,
 				F7E720BF243403A3004BAF12 /* LinearInterpolation.swift in Sources */,
+				F7E720CA24369C75004BAF12 /* Array+SKAction.swift in Sources */,
+				F7E720C624369BC9004BAF12 /* SKAction+Convenience.swift in Sources */,
 				F7E7209A2433F678004BAF12 /* SKAction+Pulse.swift in Sources */,
+				F7E720FE2436A23A004BAF12 /* SKAction+BounceResize.swift in Sources */,
 				F7E720932433F622004BAF12 /* Int+Angles.swift in Sources */,
+				F7E720EF2436A1A7004BAF12 /* SKAction+BounceColorize.swift in Sources */,
+				F7E720DA24369F87004BAF12 /* SKAction+BounceAnimate.swift in Sources */,
+				F7E720F42436A1C6004BAF12 /* SKAction+BounceFade.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,11 +516,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7E720E62436A131004BAF12 /* SKAction+BounceScale.swift in Sources */,
+				F7E720D024369E83004BAF12 /* SKAction+BounceInterpolation.swift in Sources */,
 				F7E720BB24340378004BAF12 /* SKAction+Colorize.swift in Sources */,
+				F7E720FA2436A21C004BAF12 /* SKAction+BounceRotate.swift in Sources */,
+				F7E720E124369FDB004BAF12 /* SKAction+BounceMove.swift in Sources */,
+				F7E721042436A2E0004BAF12 /* SKAction+Textures.swift in Sources */,
 				F7E7208B2433F5AF004BAF12 /* SKAction+Infinite.swift in Sources */,
+				F7E720EB2436A173004BAF12 /* SKAction+BounceSpeed.swift in Sources */,
 				F7E720C0243403A3004BAF12 /* LinearInterpolation.swift in Sources */,
+				F7E720CB24369C75004BAF12 /* Array+SKAction.swift in Sources */,
+				F7E720C524369BC5004BAF12 /* SKAction+Convenience.swift in Sources */,
 				F7E7209B2433F678004BAF12 /* SKAction+Pulse.swift in Sources */,
+				F7E720FF2436A23A004BAF12 /* SKAction+BounceResize.swift in Sources */,
 				F7E720942433F622004BAF12 /* Int+Angles.swift in Sources */,
+				F7E720F02436A1A7004BAF12 /* SKAction+BounceColorize.swift in Sources */,
+				F7E720DB24369F87004BAF12 /* SKAction+BounceAnimate.swift in Sources */,
+				F7E720F52436A1C6004BAF12 /* SKAction+BounceFade.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,7 +671,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = ZenSpriteKit/SupportingFiles/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -570,7 +698,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = ZenSpriteKit/SupportingFiles/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
