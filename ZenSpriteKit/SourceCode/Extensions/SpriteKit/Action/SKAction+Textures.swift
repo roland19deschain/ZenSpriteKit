@@ -1,6 +1,6 @@
 import SpriteKit
 
-extension SKAction {
+public extension SKAction {
 	
 	/**
 	Creates an action that infinite animates changes to a sprite’s texture, possibly resizing the sprite.

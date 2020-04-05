@@ -1,6 +1,6 @@
 import SpriteKit
 
-extension Array where Element == SKAction {
+public extension Array where Element == SKAction {
 	
 	/// Returns the group action created from the receiver.
 	var group: SKAction {

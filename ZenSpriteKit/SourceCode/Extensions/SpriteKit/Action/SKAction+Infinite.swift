@@ -14,7 +14,7 @@ public extension SKAction {
 	
 	/**
 	Creates a rectangle with the given center and dimensions.
-	- parameter duration: The duration of one revolution  (in seconds)
+	- parameter duration: The duration of one revolution (in seconds)
 	- parameter isClockwise: The direction of rotation
 	*/
 	static func rotateInfinite(

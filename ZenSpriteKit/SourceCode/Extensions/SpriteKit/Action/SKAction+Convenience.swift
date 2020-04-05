@@ -1,6 +1,6 @@
 import SpriteKit
 
-extension SKAction {
+public extension SKAction {
 	
 	/// Returns an empty action.
 	static var empty: SKAction {
