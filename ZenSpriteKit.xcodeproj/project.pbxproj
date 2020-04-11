@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7596E1A243A98B400045B91 /* SKEmitterNode+Introspection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7596E19243A98B400045B91 /* SKEmitterNode+Introspection.swift */; };
+		F7596E1B243A98B400045B91 /* SKEmitterNode+Introspection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7596E19243A98B400045B91 /* SKEmitterNode+Introspection.swift */; };
+		F7596E1C243A98B400045B91 /* SKEmitterNode+Introspection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7596E19243A98B400045B91 /* SKEmitterNode+Introspection.swift */; };
+		F7596E1D243A98B400045B91 /* SKEmitterNode+Introspection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7596E19243A98B400045B91 /* SKEmitterNode+Introspection.swift */; };
+		F7596E20243A995D00045B91 /* String+Emitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7596E1F243A995D00045B91 /* String+Emitter.swift */; };
+		F7596E21243A995D00045B91 /* String+Emitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7596E1F243A995D00045B91 /* String+Emitter.swift */; };
+		F7596E22243A995D00045B91 /* String+Emitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7596E1F243A995D00045B91 /* String+Emitter.swift */; };
+		F7596E23243A995D00045B91 /* String+Emitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7596E1F243A995D00045B91 /* String+Emitter.swift */; };
+		F7596E2F243A9B4F00045B91 /* SKEmitterNode+Colorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7596E2E243A9B4F00045B91 /* SKEmitterNode+Colorize.swift */; };
+		F7596E30243A9B4F00045B91 /* SKEmitterNode+Colorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7596E2E243A9B4F00045B91 /* SKEmitterNode+Colorize.swift */; };
+		F7596E31243A9B4F00045B91 /* SKEmitterNode+Colorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7596E2E243A9B4F00045B91 /* SKEmitterNode+Colorize.swift */; };
+		F7596E32243A9B4F00045B91 /* SKEmitterNode+Colorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7596E2E243A9B4F00045B91 /* SKEmitterNode+Colorize.swift */; };
 		F7E720542433F050004BAF12 /* ZenSpriteKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E720522433F050004BAF12 /* ZenSpriteKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7E720882433F5AF004BAF12 /* SKAction+Infinite.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720872433F5AF004BAF12 /* SKAction+Infinite.swift */; };
 		F7E720892433F5AF004BAF12 /* SKAction+Infinite.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720872433F5AF004BAF12 /* SKAction+Infinite.swift */; };
@@ -107,6 +119,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F7596E19243A98B400045B91 /* SKEmitterNode+Introspection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKEmitterNode+Introspection.swift"; sourceTree = "<group>"; };
+		F7596E1F243A995D00045B91 /* String+Emitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Emitter.swift"; sourceTree = "<group>"; };
+		F7596E2E243A9B4F00045B91 /* SKEmitterNode+Colorize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKEmitterNode+Colorize.swift"; sourceTree = "<group>"; };
 		F7E7204F2433F050004BAF12 /* ZenSpriteKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSpriteKit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E720522433F050004BAF12 /* ZenSpriteKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZenSpriteKit.h; sourceTree = "<group>"; };
 		F7E720532433F050004BAF12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -171,6 +186,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F7596E1E243A98BE00045B91 /* Emitter */ = {
+			isa = PBXGroup;
+			children = (
+				F7596E19243A98B400045B91 /* SKEmitterNode+Introspection.swift */,
+				F7596E2E243A9B4F00045B91 /* SKEmitterNode+Colorize.swift */,
+				F7596E1F243A995D00045B91 /* String+Emitter.swift */,
+			);
+			path = Emitter;
+			sourceTree = "<group>";
+		};
 		F7E720452433F050004BAF12 = {
 			isa = PBXGroup;
 			children = (
@@ -233,6 +258,7 @@
 				F7E7210A24393477004BAF12 /* Node */,
 				F7E7211524393AC8004BAF12 /* Range */,
 				F7E72126243940CF004BAF12 /* Texture */,
+				F7596E1E243A98BE00045B91 /* Emitter */,
 			);
 			path = SpriteKit;
 			sourceTree = "<group>";
@@ -519,6 +545,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7E720E32436A131004BAF12 /* SKAction+BounceScale.swift in Sources */,
+				F7596E2F243A9B4F00045B91 /* SKEmitterNode+Colorize.swift in Sources */,
 				F7E720CD24369E83004BAF12 /* SKAction+BounceInterpolation.swift in Sources */,
 				F7E720B824340378004BAF12 /* SKAction+Colorize.swift in Sources */,
 				F7E7211724393AFA004BAF12 /* SKNode+Layout.swift in Sources */,
@@ -531,6 +558,7 @@
 				F7E721282439413C004BAF12 /* String+Texture.swift in Sources */,
 				F7E7210624393467004BAF12 /* SKNode+Convenience.swift in Sources */,
 				F7E720E82436A173004BAF12 /* SKAction+BounceSpeed.swift in Sources */,
+				F7596E20243A995D00045B91 /* String+Emitter.swift in Sources */,
 				F7E720BD243403A3004BAF12 /* LinearInterpolation.swift in Sources */,
 				F7E7210C243935E4004BAF12 /* SKNode+Enumeration.swift in Sources */,
 				F7E720C824369C75004BAF12 /* Array+SKAction.swift in Sources */,
@@ -540,6 +568,7 @@
 				F7E7211C24393F72004BAF12 /* SKTexture+Name.swift in Sources */,
 				F7E720912433F622004BAF12 /* Int+Angles.swift in Sources */,
 				F7E720ED2436A1A7004BAF12 /* SKAction+BounceColorize.swift in Sources */,
+				F7596E1A243A98B400045B91 /* SKEmitterNode+Introspection.swift in Sources */,
 				F7E720D824369F87004BAF12 /* SKAction+BounceAnimate.swift in Sources */,
 				F7E720F22436A1C6004BAF12 /* SKAction+BounceFade.swift in Sources */,
 			);
@@ -550,6 +579,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7E720E42436A131004BAF12 /* SKAction+BounceScale.swift in Sources */,
+				F7596E30243A9B4F00045B91 /* SKEmitterNode+Colorize.swift in Sources */,
 				F7E720CE24369E83004BAF12 /* SKAction+BounceInterpolation.swift in Sources */,
 				F7E720B924340378004BAF12 /* SKAction+Colorize.swift in Sources */,
 				F7E7211824393AFA004BAF12 /* SKNode+Layout.swift in Sources */,
@@ -562,6 +592,7 @@
 				F7E721292439413C004BAF12 /* String+Texture.swift in Sources */,
 				F7E7210724393467004BAF12 /* SKNode+Convenience.swift in Sources */,
 				F7E720E92436A173004BAF12 /* SKAction+BounceSpeed.swift in Sources */,
+				F7596E21243A995D00045B91 /* String+Emitter.swift in Sources */,
 				F7E720BE243403A3004BAF12 /* LinearInterpolation.swift in Sources */,
 				F7E7210D243935E4004BAF12 /* SKNode+Enumeration.swift in Sources */,
 				F7E720C924369C75004BAF12 /* Array+SKAction.swift in Sources */,
@@ -571,6 +602,7 @@
 				F7E7211D24393F72004BAF12 /* SKTexture+Name.swift in Sources */,
 				F7E720922433F622004BAF12 /* Int+Angles.swift in Sources */,
 				F7E720EE2436A1A7004BAF12 /* SKAction+BounceColorize.swift in Sources */,
+				F7596E1B243A98B400045B91 /* SKEmitterNode+Introspection.swift in Sources */,
 				F7E720D924369F87004BAF12 /* SKAction+BounceAnimate.swift in Sources */,
 				F7E720F32436A1C6004BAF12 /* SKAction+BounceFade.swift in Sources */,
 			);
@@ -581,6 +613,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7E720E52436A131004BAF12 /* SKAction+BounceScale.swift in Sources */,
+				F7596E31243A9B4F00045B91 /* SKEmitterNode+Colorize.swift in Sources */,
 				F7E720CF24369E83004BAF12 /* SKAction+BounceInterpolation.swift in Sources */,
 				F7E720BA24340378004BAF12 /* SKAction+Colorize.swift in Sources */,
 				F7E7211924393AFA004BAF12 /* SKNode+Layout.swift in Sources */,
@@ -593,6 +626,7 @@
 				F7E7212A2439413C004BAF12 /* String+Texture.swift in Sources */,
 				F7E7210824393467004BAF12 /* SKNode+Convenience.swift in Sources */,
 				F7E720EA2436A173004BAF12 /* SKAction+BounceSpeed.swift in Sources */,
+				F7596E22243A995D00045B91 /* String+Emitter.swift in Sources */,
 				F7E720BF243403A3004BAF12 /* LinearInterpolation.swift in Sources */,
 				F7E7210E243935E4004BAF12 /* SKNode+Enumeration.swift in Sources */,
 				F7E720CA24369C75004BAF12 /* Array+SKAction.swift in Sources */,
@@ -602,6 +636,7 @@
 				F7E7211E24393F72004BAF12 /* SKTexture+Name.swift in Sources */,
 				F7E720932433F622004BAF12 /* Int+Angles.swift in Sources */,
 				F7E720EF2436A1A7004BAF12 /* SKAction+BounceColorize.swift in Sources */,
+				F7596E1C243A98B400045B91 /* SKEmitterNode+Introspection.swift in Sources */,
 				F7E720DA24369F87004BAF12 /* SKAction+BounceAnimate.swift in Sources */,
 				F7E720F42436A1C6004BAF12 /* SKAction+BounceFade.swift in Sources */,
 			);
@@ -612,6 +647,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7E720E62436A131004BAF12 /* SKAction+BounceScale.swift in Sources */,
+				F7596E32243A9B4F00045B91 /* SKEmitterNode+Colorize.swift in Sources */,
 				F7E720D024369E83004BAF12 /* SKAction+BounceInterpolation.swift in Sources */,
 				F7E720BB24340378004BAF12 /* SKAction+Colorize.swift in Sources */,
 				F7E7211A24393AFA004BAF12 /* SKNode+Layout.swift in Sources */,
@@ -624,6 +660,7 @@
 				F7E7212B2439413C004BAF12 /* String+Texture.swift in Sources */,
 				F7E7210924393467004BAF12 /* SKNode+Convenience.swift in Sources */,
 				F7E720EB2436A173004BAF12 /* SKAction+BounceSpeed.swift in Sources */,
+				F7596E23243A995D00045B91 /* String+Emitter.swift in Sources */,
 				F7E720C0243403A3004BAF12 /* LinearInterpolation.swift in Sources */,
 				F7E7210F243935E4004BAF12 /* SKNode+Enumeration.swift in Sources */,
 				F7E720CB24369C75004BAF12 /* Array+SKAction.swift in Sources */,
@@ -633,6 +670,7 @@
 				F7E7211F24393F72004BAF12 /* SKTexture+Name.swift in Sources */,
 				F7E720942433F622004BAF12 /* Int+Angles.swift in Sources */,
 				F7E720F02436A1A7004BAF12 /* SKAction+BounceColorize.swift in Sources */,
+				F7596E1D243A98B400045B91 /* SKEmitterNode+Introspection.swift in Sources */,
 				F7E720DB24369F87004BAF12 /* SKAction+BounceAnimate.swift in Sources */,
 				F7E720F52436A1C6004BAF12 /* SKAction+BounceFade.swift in Sources */,
 			);
