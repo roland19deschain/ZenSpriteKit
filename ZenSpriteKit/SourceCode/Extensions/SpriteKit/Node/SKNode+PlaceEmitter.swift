@@ -1,6 +1,6 @@
 import SpriteKit
 
-extension SKNode {
+public extension SKNode {
 	
 	/**
 	Places a non-endless emitter on receiver and run an action that will remove it after the end of its action.
