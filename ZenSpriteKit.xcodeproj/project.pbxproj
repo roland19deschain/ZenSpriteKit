@@ -282,8 +282,8 @@
 				F7E7210A24393477004BAF12 /* Node */,
 				F7E7211524393AC8004BAF12 /* Range */,
 				F7E72126243940CF004BAF12 /* Texture */,
-				F7596E1E243A98BE00045B91 /* Emitter */,
 				F7E633112443D758004C3F1F /* TextureAtlas */,
+				F7596E1E243A98BE00045B91 /* Emitter */,
 			);
 			path = SpriteKit;
 			sourceTree = "<group>";

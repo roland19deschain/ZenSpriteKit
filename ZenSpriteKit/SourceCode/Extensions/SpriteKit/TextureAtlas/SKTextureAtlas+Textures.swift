@@ -1,6 +1,6 @@
 import SpriteKit
 
-extension SKTextureAtlas {
+public extension SKTextureAtlas {
 	
 	/// Returns textures stored in the atlas.
 	var textures: [SKTexture] {
