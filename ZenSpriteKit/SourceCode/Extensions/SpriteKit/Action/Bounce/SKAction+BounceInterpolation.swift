@@ -15,7 +15,10 @@ extension SKAction {
 			return SKAction()
 		}
 		
-		let damping = validate(damping: springDamping)
+		let damping = validate(
+			damping: springDamping
+		)
+		
 		var initialValue: CGFloat?
 		var naturalFrequency: CGFloat = 0
 		var dampedFrequency: CGFloat = 0
@@ -44,16 +47,14 @@ extension SKAction {
 					finalValue = to
 				}
 				
-				// TODO: optimize the calculation, magicNumber picked manually
-				// to visually match the behavior of UIKit
-				var magicNumber: CGFloat = .leastNonzeroMagnitude
+				var balancer: CGFloat = .leastNonzeroMagnitude
 				if damping == 1 {
-					magicNumber = 10
+					balancer = 10
 				} else {
-					magicNumber = 8 / damping
+					balancer = 8 / damping
 				}
 				
-				naturalFrequency = magicNumber / CGFloat(duration)
+				naturalFrequency = balancer / CGFloat(duration)
 				dampedFrequency = naturalFrequency * sqrt(1 - pow(damping, 2))
 				
 				if damping == 1 {
