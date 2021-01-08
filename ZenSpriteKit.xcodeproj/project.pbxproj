@@ -19,6 +19,10 @@
 		F7596E30243A9B4F00045B91 /* SKEmitterNode+Colorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7596E2E243A9B4F00045B91 /* SKEmitterNode+Colorize.swift */; };
 		F7596E31243A9B4F00045B91 /* SKEmitterNode+Colorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7596E2E243A9B4F00045B91 /* SKEmitterNode+Colorize.swift */; };
 		F7596E32243A9B4F00045B91 /* SKEmitterNode+Colorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7596E2E243A9B4F00045B91 /* SKEmitterNode+Colorize.swift */; };
+		F7C448AC25A7DC4100C16CA9 /* SKNode+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C448AB25A7DC4100C16CA9 /* SKNode+Action.swift */; };
+		F7C448AD25A7DC4100C16CA9 /* SKNode+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C448AB25A7DC4100C16CA9 /* SKNode+Action.swift */; };
+		F7C448AE25A7DC4100C16CA9 /* SKNode+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C448AB25A7DC4100C16CA9 /* SKNode+Action.swift */; };
+		F7C448AF25A7DC4100C16CA9 /* SKNode+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C448AB25A7DC4100C16CA9 /* SKNode+Action.swift */; };
 		F7E633082443D4E9004C3F1F /* SKNode+PlaceEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E633072443D4E9004C3F1F /* SKNode+PlaceEmitter.swift */; };
 		F7E633092443D4E9004C3F1F /* SKNode+PlaceEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E633072443D4E9004C3F1F /* SKNode+PlaceEmitter.swift */; };
 		F7E6330A2443D4E9004C3F1F /* SKNode+PlaceEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E633072443D4E9004C3F1F /* SKNode+PlaceEmitter.swift */; };
@@ -134,6 +138,7 @@
 		F7596E19243A98B400045B91 /* SKEmitterNode+Introspection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKEmitterNode+Introspection.swift"; sourceTree = "<group>"; };
 		F7596E1F243A995D00045B91 /* String+Emitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Emitter.swift"; sourceTree = "<group>"; };
 		F7596E2E243A9B4F00045B91 /* SKEmitterNode+Colorize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKEmitterNode+Colorize.swift"; sourceTree = "<group>"; };
+		F7C448AB25A7DC4100C16CA9 /* SKNode+Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKNode+Action.swift"; sourceTree = "<group>"; };
 		F7E633072443D4E9004C3F1F /* SKNode+PlaceEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKNode+PlaceEmitter.swift"; sourceTree = "<group>"; };
 		F7E6330C2443D751004C3F1F /* String+TextureAtlas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+TextureAtlas.swift"; sourceTree = "<group>"; };
 		F7E633122443D7D2004C3F1F /* SKTextureAtlas+Textures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKTextureAtlas+Textures.swift"; sourceTree = "<group>"; };
@@ -350,6 +355,7 @@
 				F7E7210B243935E4004BAF12 /* SKNode+Enumeration.swift */,
 				F7E7211624393AFA004BAF12 /* SKNode+Layout.swift */,
 				F7E633072443D4E9004C3F1F /* SKNode+PlaceEmitter.swift */,
+				F7C448AB25A7DC4100C16CA9 /* SKNode+Action.swift */,
 			);
 			path = Node;
 			sourceTree = "<group>";
@@ -574,6 +580,7 @@
 				F7596E2F243A9B4F00045B91 /* SKEmitterNode+Colorize.swift in Sources */,
 				F7E720CD24369E83004BAF12 /* SKAction+BounceInterpolation.swift in Sources */,
 				F7E720B824340378004BAF12 /* SKAction+Colorize.swift in Sources */,
+				F7C448AC25A7DC4100C16CA9 /* SKNode+Action.swift in Sources */,
 				F7E7211724393AFA004BAF12 /* SKNode+Layout.swift in Sources */,
 				F7E7211124393AC4004BAF12 /* SKRange+Convenience.swift in Sources */,
 				F7E720F72436A21C004BAF12 /* SKAction+BounceRotate.swift in Sources */,
@@ -611,6 +618,7 @@
 				F7596E30243A9B4F00045B91 /* SKEmitterNode+Colorize.swift in Sources */,
 				F7E720CE24369E83004BAF12 /* SKAction+BounceInterpolation.swift in Sources */,
 				F7E720B924340378004BAF12 /* SKAction+Colorize.swift in Sources */,
+				F7C448AD25A7DC4100C16CA9 /* SKNode+Action.swift in Sources */,
 				F7E7211824393AFA004BAF12 /* SKNode+Layout.swift in Sources */,
 				F7E7211224393AC4004BAF12 /* SKRange+Convenience.swift in Sources */,
 				F7E720F82436A21C004BAF12 /* SKAction+BounceRotate.swift in Sources */,
@@ -648,6 +656,7 @@
 				F7596E31243A9B4F00045B91 /* SKEmitterNode+Colorize.swift in Sources */,
 				F7E720CF24369E83004BAF12 /* SKAction+BounceInterpolation.swift in Sources */,
 				F7E720BA24340378004BAF12 /* SKAction+Colorize.swift in Sources */,
+				F7C448AE25A7DC4100C16CA9 /* SKNode+Action.swift in Sources */,
 				F7E7211924393AFA004BAF12 /* SKNode+Layout.swift in Sources */,
 				F7E7211324393AC4004BAF12 /* SKRange+Convenience.swift in Sources */,
 				F7E720F92436A21C004BAF12 /* SKAction+BounceRotate.swift in Sources */,
@@ -685,6 +694,7 @@
 				F7596E32243A9B4F00045B91 /* SKEmitterNode+Colorize.swift in Sources */,
 				F7E720D024369E83004BAF12 /* SKAction+BounceInterpolation.swift in Sources */,
 				F7E720BB24340378004BAF12 /* SKAction+Colorize.swift in Sources */,
+				F7C448AF25A7DC4100C16CA9 /* SKNode+Action.swift in Sources */,
 				F7E7211A24393AFA004BAF12 /* SKNode+Layout.swift in Sources */,
 				F7E7211424393AC4004BAF12 /* SKRange+Convenience.swift in Sources */,
 				F7E720FA2436A21C004BAF12 /* SKAction+BounceRotate.swift in Sources */,
