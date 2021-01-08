@@ -1,6 +1,6 @@
 import SpriteKit
 
-extension SKNode {
+public extension SKNode {
 	
 	/// Run action only if there is no active action for the same key.
 	func tryRun(
