@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ZenSpriteKit'
-  s.version          = '1.1.2'
+  s.version          = '1.2.0'
   s.swift_version    = '5.0'
   s.summary          = 'ZenSpriteKit is a collection of extensions and functions for SpriteKit framework.'
   s.description      = <<-DESC
