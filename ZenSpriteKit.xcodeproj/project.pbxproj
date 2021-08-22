@@ -36,18 +36,10 @@
 		F7E633152443D7D2004C3F1F /* SKTextureAtlas+Textures.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E633122443D7D2004C3F1F /* SKTextureAtlas+Textures.swift */; };
 		F7E633162443D7D2004C3F1F /* SKTextureAtlas+Textures.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E633122443D7D2004C3F1F /* SKTextureAtlas+Textures.swift */; };
 		F7E720542433F050004BAF12 /* ZenSpriteKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E720522433F050004BAF12 /* ZenSpriteKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7E720882433F5AF004BAF12 /* SKAction+Infinite.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720872433F5AF004BAF12 /* SKAction+Infinite.swift */; };
-		F7E720892433F5AF004BAF12 /* SKAction+Infinite.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720872433F5AF004BAF12 /* SKAction+Infinite.swift */; };
-		F7E7208A2433F5AF004BAF12 /* SKAction+Infinite.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720872433F5AF004BAF12 /* SKAction+Infinite.swift */; };
-		F7E7208B2433F5AF004BAF12 /* SKAction+Infinite.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720872433F5AF004BAF12 /* SKAction+Infinite.swift */; };
 		F7E720912433F622004BAF12 /* Int+Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720902433F622004BAF12 /* Int+Angles.swift */; };
 		F7E720922433F622004BAF12 /* Int+Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720902433F622004BAF12 /* Int+Angles.swift */; };
 		F7E720932433F622004BAF12 /* Int+Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720902433F622004BAF12 /* Int+Angles.swift */; };
 		F7E720942433F622004BAF12 /* Int+Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720902433F622004BAF12 /* Int+Angles.swift */; };
-		F7E720982433F678004BAF12 /* SKAction+Pulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720972433F678004BAF12 /* SKAction+Pulse.swift */; };
-		F7E720992433F678004BAF12 /* SKAction+Pulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720972433F678004BAF12 /* SKAction+Pulse.swift */; };
-		F7E7209A2433F678004BAF12 /* SKAction+Pulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720972433F678004BAF12 /* SKAction+Pulse.swift */; };
-		F7E7209B2433F678004BAF12 /* SKAction+Pulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720972433F678004BAF12 /* SKAction+Pulse.swift */; };
 		F7E720B824340378004BAF12 /* SKAction+Colorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720B724340378004BAF12 /* SKAction+Colorize.swift */; };
 		F7E720B924340378004BAF12 /* SKAction+Colorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720B724340378004BAF12 /* SKAction+Colorize.swift */; };
 		F7E720BA24340378004BAF12 /* SKAction+Colorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E720B724340378004BAF12 /* SKAction+Colorize.swift */; };
@@ -148,9 +140,7 @@
 		F7E720602433F130004BAF12 /* ZenSpriteKit_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSpriteKit_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E7206D2433F22A004BAF12 /* ZenSpriteKit_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSpriteKit_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E7207A2433F237004BAF12 /* ZenSpriteKit_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSpriteKit_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7E720872433F5AF004BAF12 /* SKAction+Infinite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKAction+Infinite.swift"; sourceTree = "<group>"; };
 		F7E720902433F622004BAF12 /* Int+Angles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Angles.swift"; sourceTree = "<group>"; };
-		F7E720972433F678004BAF12 /* SKAction+Pulse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKAction+Pulse.swift"; sourceTree = "<group>"; };
 		F7E720B724340378004BAF12 /* SKAction+Colorize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKAction+Colorize.swift"; sourceTree = "<group>"; };
 		F7E720BC243403A3004BAF12 /* LinearInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearInterpolation.swift; sourceTree = "<group>"; };
 		F7E720C224369BC5004BAF12 /* SKAction+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKAction+Convenience.swift"; sourceTree = "<group>"; };
@@ -300,8 +290,6 @@
 				F7E720B724340378004BAF12 /* SKAction+Colorize.swift */,
 				F7E721002436A2E0004BAF12 /* SKAction+Textures.swift */,
 				F7E720C224369BC5004BAF12 /* SKAction+Convenience.swift */,
-				F7E720972433F678004BAF12 /* SKAction+Pulse.swift */,
-				F7E720872433F5AF004BAF12 /* SKAction+Infinite.swift */,
 				F7E720C724369C75004BAF12 /* Array+SKAction.swift */,
 			);
 			path = Action;
@@ -588,7 +576,6 @@
 				F7E72121243940AA004BAF12 /* Collection+SafeSubscript.swift in Sources */,
 				F7E720DE24369FDB004BAF12 /* SKAction+BounceMove.swift in Sources */,
 				F7E721012436A2E0004BAF12 /* SKAction+Textures.swift in Sources */,
-				F7E720882433F5AF004BAF12 /* SKAction+Infinite.swift in Sources */,
 				F7E721282439413C004BAF12 /* String+Texture.swift in Sources */,
 				F7E7210624393467004BAF12 /* SKNode+Convenience.swift in Sources */,
 				F7E720E82436A173004BAF12 /* SKAction+BounceSpeed.swift in Sources */,
@@ -599,7 +586,6 @@
 				F7E720C824369C75004BAF12 /* Array+SKAction.swift in Sources */,
 				F7E720C324369BC5004BAF12 /* SKAction+Convenience.swift in Sources */,
 				F7E6330D2443D751004C3F1F /* String+TextureAtlas.swift in Sources */,
-				F7E720982433F678004BAF12 /* SKAction+Pulse.swift in Sources */,
 				F7E720FC2436A23A004BAF12 /* SKAction+BounceResize.swift in Sources */,
 				F7E7211C24393F72004BAF12 /* SKTexture+Name.swift in Sources */,
 				F7E720912433F622004BAF12 /* Int+Angles.swift in Sources */,
@@ -626,7 +612,6 @@
 				F7E72122243940AA004BAF12 /* Collection+SafeSubscript.swift in Sources */,
 				F7E720DF24369FDB004BAF12 /* SKAction+BounceMove.swift in Sources */,
 				F7E721022436A2E0004BAF12 /* SKAction+Textures.swift in Sources */,
-				F7E720892433F5AF004BAF12 /* SKAction+Infinite.swift in Sources */,
 				F7E721292439413C004BAF12 /* String+Texture.swift in Sources */,
 				F7E7210724393467004BAF12 /* SKNode+Convenience.swift in Sources */,
 				F7E720E92436A173004BAF12 /* SKAction+BounceSpeed.swift in Sources */,
@@ -637,7 +622,6 @@
 				F7E720C924369C75004BAF12 /* Array+SKAction.swift in Sources */,
 				F7E720C424369BC5004BAF12 /* SKAction+Convenience.swift in Sources */,
 				F7E6330E2443D751004C3F1F /* String+TextureAtlas.swift in Sources */,
-				F7E720992433F678004BAF12 /* SKAction+Pulse.swift in Sources */,
 				F7E720FD2436A23A004BAF12 /* SKAction+BounceResize.swift in Sources */,
 				F7E7211D24393F72004BAF12 /* SKTexture+Name.swift in Sources */,
 				F7E720922433F622004BAF12 /* Int+Angles.swift in Sources */,
@@ -664,7 +648,6 @@
 				F7E72123243940AA004BAF12 /* Collection+SafeSubscript.swift in Sources */,
 				F7E720E024369FDB004BAF12 /* SKAction+BounceMove.swift in Sources */,
 				F7E721032436A2E0004BAF12 /* SKAction+Textures.swift in Sources */,
-				F7E7208A2433F5AF004BAF12 /* SKAction+Infinite.swift in Sources */,
 				F7E7212A2439413C004BAF12 /* String+Texture.swift in Sources */,
 				F7E7210824393467004BAF12 /* SKNode+Convenience.swift in Sources */,
 				F7E720EA2436A173004BAF12 /* SKAction+BounceSpeed.swift in Sources */,
@@ -675,7 +658,6 @@
 				F7E720CA24369C75004BAF12 /* Array+SKAction.swift in Sources */,
 				F7E720C624369BC9004BAF12 /* SKAction+Convenience.swift in Sources */,
 				F7E6330F2443D751004C3F1F /* String+TextureAtlas.swift in Sources */,
-				F7E7209A2433F678004BAF12 /* SKAction+Pulse.swift in Sources */,
 				F7E720FE2436A23A004BAF12 /* SKAction+BounceResize.swift in Sources */,
 				F7E7211E24393F72004BAF12 /* SKTexture+Name.swift in Sources */,
 				F7E720932433F622004BAF12 /* Int+Angles.swift in Sources */,
@@ -702,7 +684,6 @@
 				F7E72124243940AA004BAF12 /* Collection+SafeSubscript.swift in Sources */,
 				F7E720E124369FDB004BAF12 /* SKAction+BounceMove.swift in Sources */,
 				F7E721042436A2E0004BAF12 /* SKAction+Textures.swift in Sources */,
-				F7E7208B2433F5AF004BAF12 /* SKAction+Infinite.swift in Sources */,
 				F7E7212B2439413C004BAF12 /* String+Texture.swift in Sources */,
 				F7E7210924393467004BAF12 /* SKNode+Convenience.swift in Sources */,
 				F7E720EB2436A173004BAF12 /* SKAction+BounceSpeed.swift in Sources */,
@@ -713,7 +694,6 @@
 				F7E720CB24369C75004BAF12 /* Array+SKAction.swift in Sources */,
 				F7E720C524369BC5004BAF12 /* SKAction+Convenience.swift in Sources */,
 				F7E633102443D751004C3F1F /* String+TextureAtlas.swift in Sources */,
-				F7E7209B2433F678004BAF12 /* SKAction+Pulse.swift in Sources */,
 				F7E720FF2436A23A004BAF12 /* SKAction+BounceResize.swift in Sources */,
 				F7E7211F24393F72004BAF12 /* SKTexture+Name.swift in Sources */,
 				F7E720942433F622004BAF12 /* Int+Angles.swift in Sources */,

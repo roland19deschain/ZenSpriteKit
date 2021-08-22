@@ -1,5 +1,7 @@
 import SpriteKit
 
+// MARK: - Static
+
 public extension SKAction {
 	
 	/// Returns an empty action.
@@ -18,6 +20,49 @@ public extension SKAction {
 			.wait(forDuration: delay),
 			.removeFromParent()
 		])
+	}
+	
+}
+
+// MARK: - Instance
+
+public extension SKAction {
+	
+	/// Returns the receiver with specified timing mode 'easeInEaseOut'.
+	var easeInEaseOut: SKAction {
+		timingMode = .easeInEaseOut
+		return self
+	}
+	
+	/// Returns the sequence consisting of the receiver and its reverse action.
+	var pulse: SKAction {
+		.sequence([self, reversed()])
+	}
+	
+	/// Returns an endless repetition of the receiver.
+	var infinite: SKAction {
+		.repeatForever(self)
+	}
+	
+	/// Returns an endless repetition of the sequence consisting of the receiver and its reverse action.
+	var infinitePulse: SKAction {
+		.repeatForever(pulse)
+	}
+	
+	/**
+	Creates a rectangle with the given center and dimensions.
+	- parameter duration: The duration of one revolution (in seconds)
+	- parameter isClockwise: The direction of rotation
+	*/
+	static func rotateInfinite(
+		turnover duration: TimeInterval,
+		isClockwise: Bool = false
+	) -> SKAction
+	{
+		SKAction.rotate(
+			byAngle: 360.radians * (isClockwise ? -1 : 1),
+			duration: duration
+		).infinite
 	}
 	
 }
