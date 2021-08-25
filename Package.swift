@@ -24,5 +24,6 @@ let package = Package(
 			dependencies: [],
 			path: "ZenSpriteKit/SourceCode/"
 		)
-	]
+	],
+	swiftLanguageVersions: [.v5]
 )
