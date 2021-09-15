@@ -34,6 +34,18 @@ public extension SKAction {
 		return self
 	}
 	
+	/// Returns the receiver with specified timing mode 'easeIn'.
+	var easeIn: SKAction {
+		timingMode = .easeIn
+		return self
+	}
+	
+	/// Returns the receiver with specified timing mode 'easeOut'.
+	var easeOut: SKAction {
+		timingMode = .easeOut
+		return self
+	}
+	
 	/// Returns the sequence consisting of the receiver and its reverse action.
 	var pulse: SKAction {
 		.sequence([self, reversed()])
