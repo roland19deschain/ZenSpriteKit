@@ -3,10 +3,10 @@ import SpriteKit
 public extension SKNode {
 	
 	/**
-	Apply closure to every node in the receiver children tree
-	(If the enumeration will be not interrupted earlier by setting of the boolean flag _stop_ to *true*).
-	- parameter closure: The block for applying to child nodes.
-	*/
+	 Apply closure to every node in the receiver children tree
+	 (If the enumeration will be not interrupted earlier by setting of the boolean flag _stop_ to *true*).
+	 - parameter closure: The block for applying to child nodes.
+	 */
 	func recursivelyEnumerateChildren(
 		using closure: (SKNode, UnsafeMutablePointer<ObjCBool>) -> Void
 	) {

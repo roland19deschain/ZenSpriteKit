@@ -8,9 +8,9 @@ public extension SKNode {
 	}
 	
 	/**
-	Appends an array of nodes to the end of the receiver’s list of child nodes.
-	- parameter nodes: A nodes to add to the receiver.
-	*/
+	 Appends an array of nodes to the end of the receiver’s list of child nodes.
+	 - parameter nodes: A nodes to add to the receiver.
+	 */
 	func addChildren(_ nodes: [SKNode]) {
 		nodes.forEach {
 			addChild($0)

@@ -11,9 +11,9 @@ public extension SKAction {
 	}
 	
 	/**
-	Returns an action that removes the node from its parent after specified delay.
-	- parameter delay: The amount of time to wait (in seconds).
-	*/
+	 Returns an action that removes the node from its parent after specified delay.
+	 - parameter delay: The amount of time to wait (in seconds).
+	 */
 	static func removeFromParentAfterDelay(
 		_ delay: TimeInterval
 	) -> SKAction {
@@ -63,10 +63,10 @@ public extension SKAction {
 	}
 	
 	/**
-	Creates a rectangle with the given center and dimensions.
-	- parameter duration: The duration of one revolution (in seconds)
-	- parameter isClockwise: The direction of rotation
-	*/
+	 Creates a rectangle with the given center and dimensions.
+	 - parameter duration: The duration of one revolution (in seconds)
+	 - parameter isClockwise: The direction of rotation
+	 */
 	static func rotateInfinite(
 		turnover duration: TimeInterval,
 		isClockwise: Bool = false

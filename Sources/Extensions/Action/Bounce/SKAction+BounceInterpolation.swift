@@ -9,10 +9,9 @@ extension SKAction {
 		duration: TimeInterval,
 		springDamping: CGFloat,
 		initialSpringVelocity: CGFloat
-	) -> SKAction
-	{
+	) -> SKAction {
 		guard by != nil || to != nil else {
-			return SKAction()
+			return .empty
 		}
 		
 		let damping = validate(

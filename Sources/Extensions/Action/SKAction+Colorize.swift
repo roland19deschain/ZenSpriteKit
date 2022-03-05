@@ -3,11 +3,11 @@ import SpriteKit
 public extension SKAction {
 	
 	/**
-	Creates an action that colorize instance of SKShapeNode (both stroke and fill colors).
-	- parameter from: The starting color for the shape node.
-	- parameter to: The new color for the shape node.
-	- parameter duration: The duration of the action, in seconds.
-	*/
+	 Creates an action that colorize instance of SKShapeNode (both stroke and fill colors).
+	 - parameter from: The starting color for the shape node.
+	 - parameter to: The new color for the shape node.
+	 - parameter duration: The duration of the action, in seconds.
+	 */
 	static func colorizeShape(
 		from: SKColor,
 		to: SKColor,
@@ -38,11 +38,11 @@ public extension SKAction {
 	}
 	
 	/**
-	Creates an action that colorize instance of SKLabelNode.
-	- parameter from: The starting color for the label node.
-	- parameter to: The new color for the label node.
-	- parameter duration: The duration of the action, in seconds.
-	*/
+	 Creates an action that colorize instance of SKLabelNode.
+	 - parameter from: The starting color for the label node.
+	 - parameter to: The new color for the label node.
+	 - parameter duration: The duration of the action, in seconds.
+	 */
 	static func colorizeLabel(
 		from: SKColor,
 		to: SKColor,
