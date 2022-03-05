@@ -1,4 +1,5 @@
 import SpriteKit
+import ZenSwift
 
 // MARK: - Static
 
@@ -69,9 +70,8 @@ public extension SKAction {
 	static func rotateInfinite(
 		turnover duration: TimeInterval,
 		isClockwise: Bool = false
-	) -> SKAction
-	{
-		SKAction.rotate(
+	) -> SKAction {
+		.rotate(
 			byAngle: 360.radians * (isClockwise ? -1 : 1),
 			duration: duration
 		).infinite

@@ -1,13 +1,13 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.5
 
 import PackageDescription
 
 let package = Package(
 	name: "ZenSpriteKit",
 	platforms: [
-		.macOS(.v10_13),
 		.iOS(.v12),
 		.tvOS(.v12),
+		.macOS(.v10_12),
 		.watchOS(.v4)
 	],
 	products: [
@@ -17,13 +17,22 @@ let package = Package(
 			targets: ["ZenSpriteKit"]
 		)
 	],
-	dependencies: [],
+	dependencies: [
+		.package(url: "https://github.com/roland19deschain/ZenSwift.git", from: "2.1.0")
+	],
 	targets: [
 		.target(
 			name: "ZenSpriteKit",
-			dependencies: [],
-			path: "ZenSpriteKit/SourceCode/"
-		)
+			dependencies: [
+				.product(name: "ZenSwift", package: "zenswift")
+			],
+			path: "Sources/"
+		),
+		.testTarget(
+			name: "ZenSpriteKitTests",
+			dependencies: ["ZenSpriteKit"],
+			path: "Tests/"
+		),
 	],
 	swiftLanguageVersions: [.v5]
 )
