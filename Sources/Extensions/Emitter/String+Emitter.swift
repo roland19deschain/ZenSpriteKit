@@ -1,6 +1,6 @@
 import SpriteKit
 
-public extension String {
+@MainActor public extension String {
 	
 	/// Returns an emitter node created using the receiver as a *file name*.
 	var emitter: SKEmitterNode? {

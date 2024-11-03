@@ -1,6 +1,6 @@
 import SpriteKit
 
-public extension SKAction {
+@MainActor public extension SKAction {
 	
 	static func scale(
 		by scale: CGFloat,

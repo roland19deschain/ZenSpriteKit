@@ -1,6 +1,6 @@
 import SpriteKit
 
-public extension SKAction {
+@MainActor public extension SKAction {
 	
 	/**
 	 Creates an action that colorize instance of SKShapeNode (both stroke and fill colors).
