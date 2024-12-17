@@ -1,14 +1,14 @@
-// swift-tools-version:5.5
+// swift-tools-version: 5.10
 
 import PackageDescription
 
 let package = Package(
 	name: "ZenSpriteKit",
 	platforms: [
-		.iOS(.v12),
-		.tvOS(.v12),
-		.macOS(.v10_12),
-		.watchOS(.v4)
+		.iOS(.v14),
+		.tvOS(.v14),
+		.macOS(.v10_15),
+		.watchOS(.v6)
 	],
 	products: [
 		.library(
